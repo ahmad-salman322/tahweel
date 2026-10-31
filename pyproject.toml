@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tahweel"
+version = "1.1.0"
+description = "Convert between PDF, Word and Markdown with Hebrew/Arabic right-to-left text kept intact"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11"
+dependencies = ["pymupdf>=1.24", "python-docx>=1.1", "markdown-it-py>=3.0"]
+keywords = ["pdf", "docx", "markdown", "rtl", "hebrew", "arabic", "converter"]
+
+[project.scripts]
+tahweel = "tahweel.cli:main"
+
+[tool.setuptools]
+packages = ["tahweel"]

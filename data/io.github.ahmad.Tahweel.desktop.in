@@ -1,0 +1,16 @@
+[Desktop Entry]
+Type=Application
+Name=Tahweel
+Name[ar]=تحويل
+GenericName=PDF, Word and Markdown Converter
+GenericName[ar]=محوّل بين PDF ووورد وماركداون
+Comment=Convert between PDF, Word and Markdown, keeping Hebrew and Arabic text intact
+Comment[ar]=حوّل بين PDF ووورد وماركداون مع الحفاظ على النصوص العبرية والعربية
+Exec=@BIN@ --gui %F
+Icon=io.github.ahmad.Tahweel
+Terminal=false
+StartupNotify=true
+StartupWMClass=io.github.ahmad.Tahweel
+Categories=Office;Utility;GTK;
+Keywords=pdf;docx;word;markdown;md;convert;hebrew;arabic;تحويل;وورد;ماركداون;
+MimeType=application/pdf;application/vnd.openxmlformats-officedocument.wordprocessingml.document;text/markdown;text/x-markdown;
